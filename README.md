@@ -47,7 +47,7 @@ By adding these words when reciting the passphrase in one's head, but not actual
 
 ## computer-generation of passphrases (*The Randomness of the Computer*)
 
-Alternatively, one can generate a passphrase [using a computer](http://world.std.com/~reinhold/dicewarefaq.html#computer). The Diceware author recommends using a slightly longer list (8192 words, to make it a whole power of two; for there is only one Lord of the RNG...and he does not share power) for computer generation. The file `[eyeware8k](https://github.com/nightsense/eyeware/blob/master/eyeware8k)` was created for this purpose.
+Alternatively, one can generate a passphrase [using a computer](http://world.std.com/~reinhold/dicewarefaq.html#computer). The Diceware author recommends using a slightly longer list (8192 words, to make it a whole power of two; for there is only one Lord of the RNG...and he does not share power) for computer generation. The file [`eyeware8k`](https://github.com/nightsense/eyeware/blob/master/eyeware8k) was created for this purpose.
 
 **Many methods of random number generation are insufficiently random for strong passphrase generation. Be sure to choose a quality source of randomness, such as in the example below.**
 
