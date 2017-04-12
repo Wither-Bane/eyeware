@@ -39,7 +39,7 @@ For instance, the passphrase might be: `toby hew aught neighed rumoured spies so
 
 It may be tempting to alter the passphrase to make it more memorable. **Do not remove or reorder any words or characters**, for it will compromise the randomness (and therefore security) of the phrase.
 
-One approach to memorizing the passphrase is to add "connecting words" that make the phrase sound more natural.
+One approach to memorizing the passphrase is to add 'connecting words' that make the phrase sound more natural.
 
 `toby [didn't] hew aught [and] neighed [that it was] rumoured [that he] spies [on his] son`
 
