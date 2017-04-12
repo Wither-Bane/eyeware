@@ -1,6 +1,6 @@
 # eyeware
 
-[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular method of generating a strong passphrase, using random selections from a list of 7776 words. **eyeware** is an alternative Diceware word list (`eyeware-wordlist` in the files above), consisting entirely of words found in Tolkien's *The Lord of the Rings*.
+[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular method of generating a strong passphrase, using random selections from a list of about 8000 words. **eyeware** is an alternative Diceware word list consisting entirely of words found in Tolkien's *The Lord of the Rings*.
 
 ## The Forging of the List
 
