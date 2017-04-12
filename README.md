@@ -4,7 +4,7 @@
 
 ## I just want to generate a password in my Linux terminal now!
 
-First, run the following command to download `eyeware8k` (the word list for passphrase-generation on a computer) to directory `/tmp`:
+First, run the following command to download `eyeware8k` (the word list for passphrase-generation on a computer):
 
 ```
 bash -c "wget https://git.io/vSMeP -O /tmp/eyeware8k"
