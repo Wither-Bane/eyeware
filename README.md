@@ -2,13 +2,30 @@
 
 [Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of about 8000 words. Although there is a standard Diceware word list, any sufficiently long list of unique words will do. **eyeware** is an alternative Diceware list consisting entirely of words found in Tolkien's *The Lord of the Rings*.
 
-## The Forging of the List
+## I just want to generate an unbreakable password in my Linux terminal now!
+
+Run the following code to install eyeware to directory `/tmp`:
+
+```
+bash -c " wget https://git.io/vSMei -O /tmp/eyeware-passphrase-generator
+wget https://git.io/vSMeP -O /tmp/eyeware8k"
+```
+
+Then, to generate a 7-word passphrase, run:
+
+```
+bash /tmp/eyeware-passphrase-generator 7
+```
+
+Change the number in the command above to change the passphrase length. 7 is a good choice for serious personal security, given that once a Diceware passphrase reaches 7 words, it becomes '[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology'.
+
+## how eyeware was made (*The Forging of the List*)
 
 The standard Diceware list consists, for the most part, of words limited to the lowercase English alphabet. eyeware elevates this tendency to a strict standard: in preparing the word list, capitals were converted to lowercase, diacritics were removed, and words containing non-letter glyphs (such as apostrophes or hyphens) were dropped. Additionally, word length was limited to 3-9 characters.
 
 Subject to these filters, all words that appear two or more times in *The Lord of the Rings* are found in the eyeware word list. Single-occurence words were added, in alphabetical order, until the goal word total was reached.
 
-## The Five Dice
+## how to generate a passphrase (*The Five Dice*)
 
 To generate a passphrase with a Diceware word list (see the [official site](http://world.std.com/~reinhold/diceware.html) for full instructions):
 
@@ -27,9 +44,9 @@ One approach to memorizing the passphrase is to add "connecting words" that make
 
 By adding these words when reciting the passphrase in one's head, but not actually adding them to the typed passphrase, memorization can be eased without increasing the characters to be typed.
 
-## The Randomness of the Computer
+## computer-generation of a passphrase (*The Randomness of the Computer*)
 
-Alternatively, one can generate a passphrase [using a computer](http://world.std.com/~reinhold/dicewarefaq.html#computer). The Diceware author recommends using a slightly longer list (8192 words, to make it a whole power of two) for computer generation. The file `eyeware8k` (found above) was created for this purpose.
+Alternatively, one can generate a passphrase [using a computer](http://world.std.com/~reinhold/dicewarefaq.html#computer). The Diceware author recommends using a slightly longer list (8192 words, to make it a whole power of two; for there is only one Lord of the RNG...and he does not share power) for computer generation. The file `eyeware8k` (found above) was created for this purpose.
 
 **Many methods of random number generation are insufficiently random for strong passphrase generation. Be sure to choose a quality source of randomness, such as in the example below.**
 
