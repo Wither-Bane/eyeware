@@ -7,7 +7,7 @@
 First, run the following command to download `eyeware8k` (the word list for passphrase-generation on a computer):
 
 ```
-bash -c "wget https://git.io/vSMeP -O /tmp/eyeware8k"
+wget https://git.io/vSMeP -O /tmp/eyeware8k
 ```
 
 Then, to generate a 7-word passphrase, run:
