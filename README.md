@@ -44,7 +44,7 @@ One approach to memorizing the passphrase is to add "connecting words" that make
 
 By adding these words when reciting the passphrase in one's head, but not actually adding them to the typed passphrase, memorization can be eased without increasing the characters to be typed.
 
-## computer-generation of a passphrase (*The Randomness of the Computer*)
+## computer-generation of passphrases (*The Randomness of the Computer*)
 
 Alternatively, one can generate a passphrase [using a computer](http://world.std.com/~reinhold/dicewarefaq.html#computer). The Diceware author recommends using a slightly longer list (8192 words, to make it a whole power of two; for there is only one Lord of the RNG...and he does not share power) for computer generation. The file `eyeware8k` (found above) was created for this purpose.
 
