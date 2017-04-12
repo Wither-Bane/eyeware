@@ -4,17 +4,16 @@
 
 ## I just want to generate a password in my Linux terminal now!
 
-Run the following code to install eyeware to directory `/tmp`:
+First, run the following command to download `eyeware8k` (the word list for passphrase-generation on a computer) to directory `/tmp`:
 
 ```
-bash -c " wget https://git.io/vSMei -O /tmp/eyeware-passphrase-generator
-wget https://git.io/vSMeP -O /tmp/eyeware8k"
+bash -c "wget https://git.io/vSMeP -O /tmp/eyeware8k"
 ```
 
 Then, to generate a 7-word passphrase, run:
 
 ```
-bash /tmp/eyeware-passphrase-generator 7
+shuf --random-source=/dev/random -r -n 7 < /tmp/eyeware8k
 ```
 
 Change the number to change the passphrase length. A 7-word passphrase is good for serious personal security, given that once a Diceware passphrase reaches 7 words, it becomes '[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology'.
