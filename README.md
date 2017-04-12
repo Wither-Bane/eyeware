@@ -1,6 +1,6 @@
 # eyeware
 
-[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of about 8000 words. Although there is a standard Diceware word list, any sufficiently long list of unique words will do. **eyeware** is an alternative Diceware list consisting entirely of words found in Tolkien's *The Lord of the Rings*.
+[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of about 8000 words. Although a standard Diceware word list has been established, any sufficiently long list of unique words will do. **eyeware** is an alternative Diceware list consisting entirely of words found in Tolkien's *The Lord of the Rings*.
 
 ## I just want to generate an unbreakable password in my Linux terminal now!
 
