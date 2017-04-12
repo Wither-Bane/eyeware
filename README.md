@@ -1,10 +1,10 @@
 # eyeware
 
-[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular method of generating a strong passphrase, using random selections from a list of about 8000 words. **eyeware** is an alternative Diceware word list consisting entirely of words found in Tolkien's *The Lord of the Rings*.
+[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of about 8000 words. Although there is a standard Diceware word list, any sufficiently long list of unique words will do. **eyeware** is an alternative Diceware list consisting entirely of words found in Tolkien's *The Lord of the Rings*.
 
 ## The Forging of the List
 
-The standard English Diceware [word list](http://world.std.com/~reinhold/diceware.wordlist.asc) consists, for the most part, of words limited to the lowercase English alphabet. eyeware elevates this tendency to a strict standard. In preparing the word list, capitals were converted to lowercase, diacritics were removed, and words containing non-letter glyphs (such as apostrophes or hyphens) were dropped. Additionally, word length was limited to 3-9 characters.
+The standard Diceware list consists, for the most part, of words limited to the lowercase English alphabet. eyeware elevates this tendency to a strict standard: in preparing the word list, capitals were converted to lowercase, diacritics were removed, and words containing non-letter glyphs (such as apostrophes or hyphens) were dropped. Additionally, word length was limited to 3-9 characters.
 
 Subject to these filters, all words that appear two or more times in *The Lord of the Rings* are found in the eyeware word list. Single-occurence words were added, in alphabetical order, until the goal word total was reached.
 
