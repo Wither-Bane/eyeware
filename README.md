@@ -16,7 +16,7 @@ Then, to generate a 7-word passphrase, run:
 shuf --random-source=/dev/random -r -n 7 < /tmp/eyeware8k
 ```
 
-If the password generation process hangs, try moving the mouse around (to provide input to the system as a source of entropy).
+If the password generation process hangs, it's probably waiting for entropy; try moving the mouse around.
 
 Change the number to change the passphrase length. A 7-word passphrase is good for serious personal security, given that once a Diceware passphrase reaches 7 words, it becomes '[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology'.
 
