@@ -4,7 +4,7 @@
 
 ## I just want to generate a password in my Linux terminal now!
 
-First, run the following command to download `eyeware8k` (the word list for passphrase-generation on a computer):
+First, run the following command to download `eyeware8k` (the word list for passphrase generation on a computer):
 
 ```
 wget https://git.io/vSMeP -O /tmp/eyeware8k
@@ -22,7 +22,7 @@ Change the number '7' in the above command to change the passphrase length. A 7-
 
 ## how eyeware was made (*The Forging of the List*)
 
-The standard Diceware list consists, for the most part, of words limited to the lowercase English alphabet. eyeware elevates this tendency to a strict standard: in preparing the word list, capitals were converted to lowercase, diacritics were removed, and words containing non-letter glyphs (such as apostrophes or hyphens) were dropped. Additionally, word length was limited to 3-9 characters.
+The standard Diceware list consists mostly, but not entirely, of words limited to the lowercase English alphabet. eyeware elevates this tendency to a strict standard: in preparing the word list, capitals were converted to lowercase, diacritics were removed, and words containing non-letter glyphs (such as apostrophes or hyphens) were dropped. Additionally, word length was limited to 3-9 characters.
 
 Subject to these filters, all words that appear two or more times in *The Lord of the Rings* are found in the eyeware word list. Single-occurence words were added, in alphabetical order, until the goal word total was reached.
 
