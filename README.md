@@ -2,7 +2,7 @@
 
 [Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of about 8000 words. Although a standard Diceware word list has been established, any sufficiently long list of unique words will do. **eyeware** is an alternative Diceware list consisting entirely of words found in Tolkien's *The Lord of the Rings*.
 
-## I just want to generate an unbreakable password in my Linux terminal now!
+## I just want to generate a password in my Linux terminal now!
 
 Run the following code to install eyeware to directory `/tmp`:
 
@@ -17,7 +17,7 @@ Then, to generate a 7-word passphrase, run:
 bash /tmp/eyeware-passphrase-generator 7
 ```
 
-Change the number in the command above to change the passphrase length. 7 is a good choice for serious personal security, given that once a Diceware passphrase reaches 7 words, it becomes '[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology'.
+Change the number to change the passphrase length. A 7-word passphrase is good for serious personal security, given that once a Diceware passphrase reaches 7 words, it becomes '[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology'.
 
 ## how eyeware was made (*The Forging of the List*)
 
