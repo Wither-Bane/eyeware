@@ -33,7 +33,7 @@ To generate a passphrase with a Diceware word list (see the [official site](http
 - roll five dice (or one die five times) and read them left to right to get a 5-digit number
 - find the corresponding word on the list
 - repeat until the desired number of words is reached
-- use the words, in the order they were generated and with spaces between them, as your passphrase
+- use the words, in the order they were generated and with spaces between them, as the passphrase
 
 For instance, your passphrase might be: `toby hew aught neighed rumoured spies son`.
 
