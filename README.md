@@ -49,6 +49,4 @@ By adding these words when reciting the passphrase in one's head, but not actual
 
 Alternatively, one can generate a passphrase [using a computer](http://world.std.com/~reinhold/dicewarefaq.html#computer). The Diceware author recommends using a slightly longer list (8192 words, to make it a whole power of two; for there is only one Lord of the RNG...and he does not share power) for computer generation. The file [`eyeware8k`](https://github.com/nightsense/eyeware/blob/master/eyeware8k) was created for this purpose.
 
-**Many methods of random number generation are insufficiently random for strong passphrase generation. Be sure to choose a quality source of randomness, such as [`shuf --random-source`](https://wiki.archlinux.org/index.php/Random_number_generation) on a Linux system.**
-
-On Linux, one may run the command `for i in {1..7}; do shuf --random-source=/dev/random -n 1 < eyeware8k; done` to obtain a 7-word passphrase from the file "eyeware8k". The source of randomness here is the special file `/dev/random`, a random number generator built into the Linux kernel. It is considered [fully reliable](https://wiki.archlinux.org/index.php/Random_number_generation) for cryptographic generation.
+**Many methods of random number generation are insufficiently random for strong passphrase generation. Be sure to choose a quality source of randomness, such as [`shuf --random-source=/dev/random`](https://wiki.archlinux.org/index.php/Random_number_generation) on a Linux system.**
