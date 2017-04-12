@@ -31,7 +31,7 @@ Subject to these filters, all words that appear two or more times in *The Lord o
 To generate a passphrase with a Diceware word list (see the [official site](http://world.std.com/~reinhold/diceware.html) for full instructions):
 
 - roll five dice (or one die five times) and read them left to right to get a 5-digit number
-- find the corresponding word on the list
+- find the corresponding word on the list (such as the [original Diceware list](http://world.std.com/~reinhold/dicewarewordlist.pdf) or the [eyeware list](https://github.com/nightsense/eyeware/blob/master/eyeware-wordlist))
 - repeat until the desired number of words is reached
 - use the words, in the order they were generated and with spaces between them, as the passphrase
 
