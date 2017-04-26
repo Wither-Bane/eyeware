@@ -1,13 +1,13 @@
 # eyeware 𝄐
 
-[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of about 8000 words. Although a standard Diceware word list has been established, any sufficiently long list of unique words will do. eyeware is an **alternative Diceware list** consisting entirely of words found in Tolkien's *The Lord of the Rings*.
+[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of ~8000 words. Although there exists a standard Diceware list, any sufficient collection of unique words will do. eyeware is an **alternative Diceware list** consisting entirely of words found in Tolkien's *The Lord of the Rings*.
 
 ## I just want to generate a password in my Linux terminal now!
 
 First, run the following command to download `eyeware8k` (the word list for passphrase generation on a computer):
 
 ```
-wget https://git.io/vSMeP -O /tmp/eyeware8k
+wget https://raw.githubusercontent.com/nightsense/eyeware/master/eyeware8k -O /tmp/eyeware8k
 ```
 
 Then, to generate a 7-word passphrase, run:
