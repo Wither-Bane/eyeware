@@ -37,13 +37,13 @@ To generate a passphrase with a Diceware word list (see the [official site](http
 
 For instance, the passphrase might be: `toby hew aught neighed rumoured spies son`.
 
-It may be tempting to alter the passphrase to make it more memorable. **Do not remove or reorder any words or characters**, for it will compromise the randomness (and therefore security) of the phrase.
+It may be tempting to alter the passphrase to make it more memorable. **Do not remove or reorder any words or characters**, for it will compromise the randomness (and therefore security) of the phrase. Words or characters may be freely inserted, however, and will strengthen the passphrase to some degree.
 
-One approach to memorizing the passphrase is to add "connecting words" that make the phrase sound more natural.
+One may wish to add "connecting words" that make the phrase sound more natural.
 
 `toby [didn't] hew aught [and] neighed [that it was] rumoured [that he] spies [on his] son`
 
-By adding these words when reciting the passphrase in one's head, but not actually adding them to the typed passphrase, memorization can be eased without increasing the characters to be typed.
+Connecting words may be added to the typed passphrase, or merely added when reciting the passphrase in one's head. The latter eases memorization without increasing the characters to be typed.
 
 ## computer-generation of passphrases (*The Randomness of the Computer*)
 
