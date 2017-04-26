@@ -18,7 +18,7 @@ shuf --random-source=/dev/random -r -n 7 < /tmp/eyeware8k
 
 If the password generation process hangs, it's probably waiting for entropy; try moving the mouse around.
 
-Change the number `7` in the above command to change the passphrase length. A 7-word passphrase can be regarded as the "gold standard" for practical personal security, given that once a Diceware passphrase reaches 7 words, it becomes "[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology".
+Change the number `7` in the above command to change the passphrase length. A 7-word passphrase can be regarded as the current "gold standard" for practical personal security, given that once a Diceware passphrase reaches 7 words, it becomes "[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology".
 
 ## how eyeware was made (*The Forging of the List*)
 
@@ -39,7 +39,7 @@ For instance, the passphrase might be: `toby hew aught neighed rumoured spies so
 
 It may be tempting to alter the passphrase to make it more memorable. **Do not remove or reorder any words or characters**, for it will compromise the randomness (and therefore security) of the phrase.
 
-One approach to memorizing the passphrase is to add 'connecting words' that make the phrase sound more natural.
+One approach to memorizing the passphrase is to add "connecting words" that make the phrase sound more natural.
 
 `toby [didn't] hew aught [and] neighed [that it was] rumoured [that he] spies [on his] son`
 
