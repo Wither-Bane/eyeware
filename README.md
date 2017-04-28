@@ -16,7 +16,7 @@ Then, to generate a 7-word passphrase, run:
 shuf --random-source=/dev/random -r -n 7 < /tmp/eyeware8k
 ```
 
-Use the words, in the order they were generated and with spaces between them, as the passphrase. Do not remove or reorder any words or characters. Inserting extra words is fine, however, and may help make the passphrase easier to remember.
+Use the words, in the order they were generated and with spaces between them, as the passphrase. **Do not remove or reorder any words or characters.** Do insert extra words if it helps make the passphrase easier to remember.
 
 > If the password generation process hangs, it's probably waiting for entropy; try moving the mouse around.
 
