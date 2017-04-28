@@ -16,9 +16,9 @@ Then, to generate a 7-word passphrase, run:
 shuf --random-source=/dev/random -r -n 7 < /tmp/eyeware8k
 ```
 
-Use the words, in the order they were generated and with spaces between them, as the passphrase. **Do not** remove or reorder any words or characters. **Do** insert extra words if it helps make the passphrase easier to remember.
-
 > If the password generation process hangs, it's probably waiting for entropy; try moving the mouse around.
+
+Use the words, in the order they were generated and with spaces between them, as the passphrase. **Do not** remove or reorder any words or characters. **Do** insert extra words if it helps make the passphrase easier to remember.
 
 Change the number `7` in the above command to change the passphrase length. A 7-word passphrase can be regarded as the current "gold standard" for practical personal security, given that once a Diceware passphrase reaches 7 words, it becomes "[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology".
 
@@ -45,7 +45,7 @@ One may wish to add "connecting words" that make the phrase sound more natural.
 
 `toby [didn't] hew aught [and] neighed [that it was] rumoured [that he] spies [on his] son`
 
-Connecting words may be added to the typed passphrase, or merely added when reciting the passphrase in one's head. The latter eases memorization without increasing the characters to be typed.
+Connecting words may be added to the typed passphrase, or merely added when reciting the passphrase in one's head.
 
 ## computer-generation of passphrases (*The Randomness of the Computer*)
 
