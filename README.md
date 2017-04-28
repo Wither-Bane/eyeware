@@ -1,6 +1,6 @@
 # eyeware 𝄐
 
-[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of ~8000 words. Although there exists a standard Diceware list, any sufficient collection of unique words will do. eyeware is an **alternative Diceware list** consisting entirely of words found in Tolkien's *The Lord of the Rings*.
+[Diceware](http://world.std.com/~reinhold/diceware.html) is a popular password-generation method using random selections from a list of ~8000 words. Although there exists a [standard Diceware list](http://world.std.com/~reinhold/dicewarewordlist.pdf), any sufficiently large collection of unique words will do. eyeware is an **alternative Diceware list** consisting entirely of words found in Tolkien's *The Lord of the Rings*.
 
 ## I just want to generate a password in my Linux terminal now!
 
@@ -16,7 +16,9 @@ Then, to generate a 7-word passphrase, run:
 shuf --random-source=/dev/random -r -n 7 < /tmp/eyeware8k
 ```
 
-If the password generation process hangs, it's probably waiting for entropy; try moving the mouse around.
+Use the words, in the order they were generated and with spaces between them, as the passphrase. Do not remove or reorder any words or characters. Feel free to add words, however, to make the passphrase easier to remember (and incidentally strengthen it).
+
+> If the password generation process hangs, it's probably waiting for entropy; try moving the mouse around.
 
 Change the number `7` in the above command to change the passphrase length. A 7-word passphrase can be regarded as the current "gold standard" for practical personal security, given that once a Diceware passphrase reaches 7 words, it becomes "[unbreakable](http://world.std.com/~reinhold/dicewarefaq.html#howlong) with any known technology".
 
